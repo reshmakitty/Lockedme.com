@@ -7,7 +7,7 @@ public class LockedMeMain {
 		// Create "main" folder if not present in current folder structure
 		FileOperations.createMainFolderIfNotPresent("main");
 		
-		MenuOptions.printWelcomeScreen("LockedMe", "Enter Your Name here.");
+		MenuOptions.printWelcomeScreen("LockedMe", "Reshma");
 		
 		HandleOptions.handleWelcomeScreenInput();
 	}
